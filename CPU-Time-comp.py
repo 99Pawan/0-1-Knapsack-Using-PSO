@@ -214,3 +214,5 @@ def compare_pso_dp_with_plot(start_n=1000, end_n=10000, step=1000, capacity=1000
 
 if __name__ == "__main__":
     compare_pso_dp_with_plot()
+
+# This code implements a Particle Swarm Optimization (PSO) algorithm for the Knapsack problem and compares its performance against a deterministic Dynamic Programming (DP) solution. The PSO algorithm includes a greedy initialization with random perturbations to enhance diversity, and an adaptive temperature mechanism to balance exploration and exploitation. The comparison includes execution time and error percentage, with results visualized through plots.

@@ -214,4 +214,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# this is a program for error analysis
+# This code implements a Particle Swarm Optimization (PSO) algorithm for the Knapsack problem and compares its performance against a deterministic Dynamic Programming (DP) solution. The PSO algorithm includes a greedy initialization with random perturbations to enhance diversity, and an adaptive temperature mechanism to balance exploration and exploitation. The comparison includes execution time and error percentage, with results visualized through plots.
